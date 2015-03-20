@@ -31,7 +31,7 @@ vagrant ssh
 vagrant@ubuntu-14:~$ 
 * Prompt after logging in via SSH
 
-vagrant@ubuntu-14:~$ docker --version
+vagrant@ubuntu-14:~$ docker --version<br/>
 Docker version 1.5.0, build a8a31ef
 * Echos Docker versoin
 
