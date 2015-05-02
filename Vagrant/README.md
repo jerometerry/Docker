@@ -7,25 +7,43 @@ Spins up a new VM using Vagrant / Virtual Box. Here's the details of the resulti
 
 Here are the relevant Vagrant commands
 
+```
 vagrant up 
+```
+
 * Creates the VM
 
+```
 vagrant ssh
+```
+
 * SSH into the VM, giving you access to the shell
- 
+
+``` 
 vagrant halt
+```
+
 * Stops the VM
-    
+
+```    
 vagrant destroy
+```
+
 * Tears down the VM, and removes it from the file system
-    
+
+```    
 vagrant provision
+```
+
 * Applies the vagrant provisioning steps to the VM. 
 * Run this if you make any changes to Vagrantfile
 
 After running *vagrant up*, you now have a Ubuntu box running docker. SSH into the box to execute some commands.
 
+```
 vagrant ssh
+```
+
 * SSH into the box
 
 vagrant@ubuntu-14:~$ 
